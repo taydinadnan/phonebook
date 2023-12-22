@@ -30,6 +30,6 @@ data "aws_ami" "al2023" {
 }
 
 
-data "aws_route53_zone" "selected" {
-  name = var.hosted-zone
-}
+# data "aws_route53_zone" "selected" {
+#   name = var.hosted-zone
+# }

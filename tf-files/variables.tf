@@ -1,15 +1,17 @@
 variable "git-name" {
-  default = "taydinadnan"
+  default = "git_username"
 }
 
 variable "git-token" {
-  default = "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"
+  default = "************************"
 }
 
 variable "key-name" {
-  default = "clarusway-kp"
+  default = "your-keypair"
 }
 
-variable "hosted-zone" {
-  default = "turgayadnan.com"
-}
+
+////////*** If you need route53 -Dont forget to uncomment related codes in #main.tf #data.tf #outputs.tf
+# variable "hosted-zone" {
+#   default = "if-needed-type-your-domain.com" 
+# }
